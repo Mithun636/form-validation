@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(205, 230, 244);
+}
+.forms{
+    margin:200px 460px;
+    border: 0px solid black;
+    border-radius: 8px;
+    background-color: rgb(114, 187, 247);
+    padding: 10px;
+}
+input{
+    margin-left: 20px;
+    width: 70%;
+    border-radius: 4px;
+    padding: 8px;
+}
+textarea{
+   width: 72%;
+   margin-left: 45px;
+   border-radius: 4px;
+   justify-content: center;
+}
+
+p{
+    display: inline;
+    padding: 10px;
+}
+button{
+    border-radius: 4px;
+    margin-left: 128px;
+    width: 50%;
+    background-color: rgb(57, 83, 255);
+    color: white;
+    padding: 5px;
+    margin:20px 130px ;
+}
+#lname{
+    margin-left: 25px;
+}
+#city{
+    margin-left: 67px;
+}
+#phno{
+    margin-left: 33px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-weight: 600;
+}
+input:hover,textarea:hover,button:hover{
+    background-color: rgb(106, 205, 255);
+}
+.add{
+    display: flex;
+}
